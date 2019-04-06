@@ -34,6 +34,7 @@ regd = DecisionTreeRegressor(max_depth=3)
 # Fit the data
 regd.fit(X,y)
 ```
+## Classification
 
 ### Logistic Regression
 
