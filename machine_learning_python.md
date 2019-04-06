@@ -34,3 +34,37 @@ regd = DecisionTreeRegressor(max_depth=3)
 # Fit the data
 regd.fit(X,y)
 ```
+
+### Logistic Regression
+
+```python
+# Load the library
+from sklearn.linear_model import LogisticRegression
+# Create an instance of the classifier
+clf=LogisticRegression()
+# Fit the data
+clf.fit(X,y)
+```
+
+### k nearest neighbor
+
+```python
+# Import Library
+from sklearn.tree import DecisionTreeClassifier
+# Create instance
+clf = DecisionTreeClassifier(min_samples_leaf=20,max_depth=3)
+# Fit
+clf.fit(X,y)
+```
+
+
+### Decision Tree
+
+```python
+# Import library
+from sklearn.tree import DecisionTreeClassifier
+# Create instance
+clf = DecisionTreeClassifier(min_samples_leaf=20,max_depth=3)
+# Fit the data
+clf.fit(X,y)
+````
